@@ -17,7 +17,7 @@
 
 ### 2、准备`setup.py` 和 `README.rst`文件
 
-* `setup.py`：[./demo/setup.py](./demo/setup.py)，
+* `setup.py`：[demo/setup.py](./demo/setup.py)，
 
 * `README.rst`：该内容是显示在pypi包首页上。
 
@@ -69,7 +69,7 @@
 可以在任何地方更新：
 
     ```
-    sudo pip install pyalisuredemo --update
+    sudo pip install pyalisuredemo --upgrade
     ```
 
 ### 5、测试
@@ -103,4 +103,12 @@ alisuredemo.pyhton22("bbbbb")
     username = <username>
     password = <password>
     ```
+   
     
+### 7. Inference
+
+* [在Pypi上发布自己的Python包](https://www.cnblogs.com/sting2me/p/6550897.html)
+
+* [reStructuredText](https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html)
+
+* [发布你自己的轮子 - PyPI打包上传实践](https://segmentfault.com/a/1190000008663126)

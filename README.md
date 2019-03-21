@@ -5,6 +5,29 @@
 
 ## 发布方法
 
-> 具体见：[./Publish.md](./Publish.md)
+> 具体见：[Publish.md](./Publish.md)
 
 
+## 发布`alisuretool`
+
+
+### 内容
+
+```
+Now only include print, write/read pkl, write txt, create dir.
+```
+
+
+### 安装方法
+
+```
+pip install alisuretool
+```
+
+
+### 使用方法
+
+```
+import alisuretool as alitool
+alitool.Tools.print("something....")
+```
